@@ -1,6 +1,6 @@
 {
   "name": "mfk-toast",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "A lightweight and elegant Vue 3 toast notification library with TypeScript support, multiple animations, and flexible positioning.",
   "author": {
