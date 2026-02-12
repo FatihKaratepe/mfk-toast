@@ -1,6 +1,8 @@
-# mfk-toast
+# MFK Toast
 
 A lightweight and elegant Vue 3 toast notification library with TypeScript support, multiple animations, and flexible positioning.
+
+## 🚀 [**Live Demo →**](https://vue-toast-notification.vercel.app)
 
 [![npm version](https://img.shields.io/npm/v/mfk-toast.svg)](https://www.npmjs.com/package/mfk-toast)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -425,6 +427,7 @@ MIT © [Fatih Karatepe](https://github.com/FatihKaratepe)
 
 ## 🔗 Links
 
+- [Live Demo](https://vue-toast-notification.vercel.app)
 - [GitHub Repository](https://github.com/FatihKaratepe/mfk-toast)
 - [Report Issues](https://github.com/FatihKaratepe/mfk-toast/issues)
 - [NPM Package](https://www.npmjs.com/package/mfk-toast)
