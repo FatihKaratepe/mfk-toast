@@ -1,0 +1,85 @@
+{
+  "name": "mfk-toast",
+  "version": "1.0.3",
+  "license": "MIT",
+  "description": "A lightweight and elegant Vue 3 toast notification library with TypeScript support, multiple animations, and flexible positioning.",
+  "author": {
+    "name": "Fatih Karatepe",
+    "email": "m.fatikaratepe@gmail.com",
+    "url": "https://github.com/FatihKaratepe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FatihKaratepe/mfk-toast"
+  },
+  "type": "module",
+  "main": "./dist/mfk-toast.umd.js",
+  "module": "./dist/mfk-toast.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/mfk-toast.js",
+      "require": "./dist/mfk-toast.umd.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "keywords": [
+    "vue",
+    "vue3",
+    "notification",
+    "toast",
+    "snackbar",
+    "message",
+    "alert",
+    "mfk-toast",
+    "vue-toast",
+    "vue-notification",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.8.1",
+    "@vue/vue3-jest": "^29.2.6",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "sass": "^1.97.3",
+    "tailwindcss": "^4.1.18",
+    "ts-jest": "^29.4.6",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "^3.5.24",
+    "vue-tsc": "^3.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run test && npm run build"
+  }
+}
